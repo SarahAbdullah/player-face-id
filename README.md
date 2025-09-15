@@ -1,3 +1,6 @@
+Streamlit link:  https://player-face-id.streamlit.app/#player-face-identification
+
+
 ⚽ **Player Face Identification (Streamlit + OpenCV)**
 
 Detect a face in a photo and identify which player it is using:
@@ -10,6 +13,8 @@ A simple classifier (SVM or k-NN) trained on your images
 
 Open-set handling: mark faces as Unknown using probability & cosine-similarity thresholds
 
+
+
 ✨ **Features**
 
 Upload an image or use your camera
@@ -21,6 +26,7 @@ Detect multiple faces and label each
 CPU-friendly; GPU not required to run the app
 
 Small, simple codebase
+
 
 
 
