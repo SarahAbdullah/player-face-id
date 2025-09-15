@@ -210,7 +210,7 @@ sim_threshold = st.sidebar.slider(
 st.subheader("Upload a photo")
 uploaded = st.file_uploader("Upload an image", type=["jpg", "jpeg", "png", "webp"])
 if uploaded is None:
-    st.info("Upload an image to get a prediction.")
+    st.info("Upload a player photo to get a prediction.")
     st.stop()
 
 # Read via OpenCV
