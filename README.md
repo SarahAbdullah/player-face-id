@@ -39,9 +39,10 @@ PyTorch (model runtime)
 
 **Project Structure**
 player-face-id/
-├─ app.py
-├─ requirements.txt
-└─ models/
-   ├─ player_id.joblib      # trained classifier
-   ├─ labels.joblib         # LabelEncoder
-   └─ embeddings.npz        # (optional) X,y for centroid-based "Unknown"
+|-- app.py
+|-- requirements.txt
+`-- models/
+    |-- player_id.joblib
+    |-- labels.joblib
+    `-- embeddings.npz
+
