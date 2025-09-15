@@ -1,0 +1,8 @@
+streamlit>=1.33
+numpy
+opencv-python-headless
+torch
+torchvision
+facenet-pytorch
+scikit-learn
+joblib
