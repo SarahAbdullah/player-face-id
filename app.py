@@ -237,4 +237,3 @@ else:
             line += f", cos sim=`{r['cosine_sim']:.3f}`"
         st.write(line)
 
-st.caption("Tip: Tune thresholds above. Add more varied training images per player for better accuracy.")
