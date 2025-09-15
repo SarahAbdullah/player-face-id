@@ -37,12 +37,3 @@ scikit-learn (SVM or k-NN)
 PyTorch (model runtime)
 
 
-**Project Structure**
-player-face-id/
-|-- app.py
-|-- requirements.txt
-`-- models/
-    |-- player_id.joblib
-    |-- labels.joblib
-    `-- embeddings.npz
-
